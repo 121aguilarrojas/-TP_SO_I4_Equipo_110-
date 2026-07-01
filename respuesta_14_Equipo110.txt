@@ -1,0 +1,16 @@
+
+Equipo: 110
+Integrante: Aguilar Rojas Brandon (GAMMA)
+
+Respuestas Parte 1:
+A- TESTING tiene color de fondo ROJO (fijado por BETA en el punto 12).
+
+C- MASTER tiene el color elegido manualmente por GAMMA al resolver el conflicto del punto 16.
+D- Quedo el favicon de BETA (arrastrado en el merge de DESARROLLO a MASTER del punto 15).
+
+Respuestas Parte 2
+E- SI, surgieron problemas al alterar el orden de push del punto 21.
+F- Error de tipo 'Rejected (Non-fast-forward)' debido a cambios remotos no sincronizados.
+G- Se debe aplicar 'git pull origin TESTING'. La consecuencia es que Git fusiona los archivos y obliga a resolver el conflicto de lineas de forma manual en el codigo.
+H- Si todos usan 'push -f', se sobreescribe destructivamente el historial del servidor, borrando los parrafos de los compañeros previos y dejando solo el del ultimo en empujar.
+I- Para unificar todo en DESARROLLO, primero se resuelven los conflictos en TESTING dejando los tres <p> juntos, se sube, luego se cambia a DESARROLLO ('git checkout DESARROLLO') y se ejecuta 'git merge TESTING'.
